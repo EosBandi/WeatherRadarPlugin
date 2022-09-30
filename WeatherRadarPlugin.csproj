@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DDD2FEA8-801E-463B-8913-9CCCDA2D9429}</ProjectGuid>
+    <ProjectGuid>{7B29CE4B-DE62-48E0-90A9-4A52039AC388}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>MissionPlanner.WeatherRadarPlugin</RootNamespace>
     <AssemblyName>MissionPlanner.WeatherRadarPlugin</AssemblyName>
