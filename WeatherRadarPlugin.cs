@@ -250,7 +250,7 @@ namespace MissionPlanner.WeatherRadarPlugin
                 foreach (String s in imagesToDownload)
                 {
                     webClient.Headers.Add("Referer", "https://www.idokep.hu/radar");
-                    byte[] data = webClient.DownloadData("https://idokep.hu/radar/" + s);
+                    byte[] data = webClient.DownloadData("https://www.idokep.hu/radar/" + s);
 
                     using (MemoryStream mem = new MemoryStream(data))
                     {
